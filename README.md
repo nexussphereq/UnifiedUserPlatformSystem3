@@ -18,6 +18,7 @@ A lightweight PHP CMS framework designed to render and serve NexaWrite `.nwf` JS
 2. Create a `system.json` file describing your site metadata, posts, and pages.  
 3. Add your `.nwf` documents for posts and pages in appropriate folders. Use [NexaWrite](https://nexussphereq.neocities.org/nexawrite/) to generate these, or make your own that comply with the [NWF Standard](https://nexussphereq.neocities.org/nexawrite/nwf.html). 
 4. Customize `style.css` to fit your branding if desired.
+5. Set baseurl to the url of your website
 
 ## How to Use `system.json`
 
@@ -28,6 +29,7 @@ The `system.json` file configures your site structure and metadata. Below is an 
   "title": "Unified User Platform System 3.0",
   "author": "NexussphereQ",
   "manifest": "manifest.json",
+  "baseurl": "https://example.com",
   "postpage": 10,
   "posts": [
     {
