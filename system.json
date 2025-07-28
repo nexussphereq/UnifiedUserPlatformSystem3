@@ -1,0 +1,14 @@
+{
+  "title": "Example Page",
+  "author": "NexussphereQ",
+  "manifest": "manifest.json",
+  "postpage":1,
+  "posts": [
+    {"name": "Welcome Post", "file": "posts/welcome.nwf", "description": "Intro to UUPS 3.0"},
+    {"name": "Second Post", "file": "posts/second.nwf", "description": "Another cool post"}
+  ],
+  "pages": [
+    {"name": "About", "file": "pages/about.nwf"},
+    {"name": "Contact", "file": "pages/contact.nwf"}
+  ]
+}
