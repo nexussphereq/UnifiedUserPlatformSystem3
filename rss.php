@@ -1,11 +1,10 @@
 <?php
 header("Content-Type: application/rss+xml; charset=UTF-8");
-
 $system = json_decode(file_get_contents("system.json"), true);
 
 $siteTitle = htmlspecialchars($system['title'] ?? 'NexaWrite Site', ENT_XML1);
 $siteAuthor = htmlspecialchars($system['author'] ?? '', ENT_XML1);
-$siteLink = rtrim('https://sphereservices.42web.io', '/'); // Your site base URL, no trailing slash
+$siteLink = rtrim($system['baseurl'], '/');
 
 $posts = $system['posts'] ?? [];
 // Filter out posts without valid files
