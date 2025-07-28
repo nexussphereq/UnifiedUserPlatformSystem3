@@ -1,6 +1,6 @@
 # Unified User Platform System 3.0 (UUPS 3.0)
 
-A lightweight PHP CMS framework designed to render and serve NexaWrite `.nwf` JSON-based documents as web content. Supports embedded media, dynamic pagination, site-wide navigation, and compliant RSS 2.0 feeds. It's also designed with security in mind, and therefore, does not do writing to the server or files.
+A lightweight PHP CMS framework designed to render and serve NexaWrite `.nwf` JSON-based documents as web content. Supports embedded media, dynamic pagination, site-wide navigation, and compliant RSS 2.0 feeds. It's also designed with security in mind, and therefore, does not do writing to the server or files. This makes UUPS 3.0 one of, if not the most, secure CMS platforms ever made.
 
 ## Features
 
